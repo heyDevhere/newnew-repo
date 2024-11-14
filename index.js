@@ -15,7 +15,7 @@ app.use(express.json()); // Parse JSON bodies
 
 app.use(cors({
     origin: [
-      "https://rtm-rtc-react.netlify.app"
+      "https://rtm-rtc-react.netlify.app",
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
